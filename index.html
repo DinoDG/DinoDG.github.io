@@ -12,39 +12,43 @@
 
     <title>DuocATP</title>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <script src='main.js' defer></script>
 </head>
 
+
+
+
+
 <body>
-    <div class="d-sm-block d-md-none">
-        <button type="button">
-            <a
-                href="https://drive.google.com/file/d/1wn-KEgf_r_8tAnsa-gkGdBsyGcuuRweN/view?usp=drive_link"
-                target="_blank"
-            >
-            Descargar
-            </a>
-        </button>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h1 class="text-center">DuocATP</h1>
+                <h3 class="text-center">Descarga la app porfis</h3>
+                <h4 class="text-center">Muchas Gracias</h4>
+            </div>
+        </div>
+
+
+        <div id="movil" class="text-center">
+            <button type="button">
+                <a href="https://drive.google.com/file/d/1wn-KEgf_r_8tAnsa-gkGdBsyGcuuRweN/view?usp=drive_link"
+                    target="_blank">
+                    Descargar
+                </a>
+            </button>
+        </div>
+
+        <!-- Agrega un elemento div para contener el código QR -->
+        <div id="codigoQR" class="te"></div>
     </div>
 
-    <!-- Agrega un elemento div para contener el código QR -->
-    <div id="codigoQR" class="d-md-block d-none"></div>
 
-    <script>
-        // Define la información que deseas codificar en el código QR
-        var informacionParaQR = "https://drive.google.com/file/d/1wn-KEgf_r_8tAnsa-gkGdBsyGcuuRweN/view?usp=drive_link";
-
-        // Crea un nuevo elemento de imagen
-        var imgQR = document.createElement("img");
-
-        // Configura los atributos de la imagen, incluida la URL del código QR
-        imgQR.src = "https://chart.googleapis.com/chart?chs=300x300&cht=qr&chl=" + encodeURIComponent(informacionParaQR);
-        imgQR.alt = "Código QR";
-
-        // Agrega la imagen al elemento con id "codigoQR"
-        document.getElementById("codigoQR").appendChild(imgQR);
-    </script>
 </body>
 
+
+<!-- class="d-sm-block d-md-none"
+class="d-md-block d-none" -->
 
 </html>
