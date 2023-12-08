@@ -1,8 +1,18 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+
 body {
-    background: #0575E6;
-    background: -webkit-linear-gradient(to right, #021B79, #0575E6);
-    background: linear-gradient(to right, #021B79, #0575E6);
+    background: #3A1C71;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ 
 }
+h1{
+    font-family: 'bangers', cursive;
+    font-weight: 500;
+}
+
 
 img {
     background-color: transparent;
@@ -11,4 +21,7 @@ img {
 
 button{
     background-color: transparent;
+    font-size: 24px;
+    padding: 15px 20px;
+    margin-bottom: 30px;
 }
