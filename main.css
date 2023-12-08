@@ -13,6 +13,10 @@ h1{
     font-weight: 500;
 }
 
+.bi-arrow-down-circle {
+    width: 50px; /* Establece el ancho del SVG */
+    height: 50px; /* Establece la altura del SVG */
+}  
 
 img {
     background-color: transparent;
