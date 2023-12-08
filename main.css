@@ -31,4 +31,5 @@ button{
     font-size: 4vw; 
     padding: 4vw 6vw; 
     margin-bottom: 5vw; 
+    border-radius: 7px;
 }
