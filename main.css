@@ -13,6 +13,9 @@ h1{
     font-weight: 500;
 }
 
+h3{
+    font-family: 'bangers', cursive;
+}
 .bi-arrow-down-circle {
     width: 80px; /* Establece el ancho del SVG */
     height: 80px; /* Establece la altura del SVG */
