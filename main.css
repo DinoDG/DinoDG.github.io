@@ -14,8 +14,8 @@ h1{
 }
 
 .bi-arrow-down-circle {
-    width: 50px; /* Establece el ancho del SVG */
-    height: 50px; /* Establece la altura del SVG */
+    width: 80px; /* Establece el ancho del SVG */
+    height: 80px; /* Establece la altura del SVG */
 }  
 
 img {
@@ -25,7 +25,7 @@ img {
 
 button{
     background-color: transparent;
-    font-size: 24px;
-    padding: 15px 20px;
-    margin-bottom: 30px;
+    font-size: 4vw; 
+    padding: 4vw 6vw; 
+    margin-bottom: 5vw; 
 }
